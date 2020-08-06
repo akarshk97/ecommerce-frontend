@@ -30,9 +30,9 @@ const Home = ()=>
         loadAllProducts()
     },[])
     return (
-        <Base title = "Home page" description="Welcome to the COVID supplies Store"> 
+        <Base title = "Welcome to the COVID supplies Store" description=""> 
             <div className = "row text-center">
-            <h1 className="text-white">All the Products</h1>
+            <h1 className="text-white">Products</h1>
             <div className="row">
                 {products.map((product, index)=>{
                     return (
